@@ -31,3 +31,11 @@ button.danger { background: #c0392b; margin-top: 12px; }
 .muted { opacity: 0.5; }
 button.sm { padding: 5px 10px; font-size: 14px; }
 button.ghost { background: #fff; color: #241c15; border: 1px solid #ccc; }
+select { width: 100%; padding: 10px; margin: 6px 0 12px; border: 1px solid #ccc; border-radius: 8px; box-sizing: border-box; font-size: 16px; background: #fff; }
+.shortcuts { display: flex; gap: 8px; flex-wrap: wrap; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 10px; margin: 12px 0; }
+.stat { background: #fff; border: 1px solid #e3dbd0; border-radius: 10px; padding: 12px; }
+.stat span { display: block; color: #7a6e62; font-size: 14px; }
+.stat b { display: block; font-size: 20px; margin-top: 4px; }
+.stat.net { background: #8c2f1b; color: #fff; }
+.stat.net span { color: #f1dcd5; }

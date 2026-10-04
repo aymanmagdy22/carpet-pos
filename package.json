@@ -12,7 +12,8 @@
   "dependencies": {
     "@supabase/supabase-js": "^2.117.2",
     "react": "^19.2.8",
-    "react-dom": "^19.2.8"
+    "react-dom": "^19.2.8",
+    "read-excel-file": "^5.8.5"
   },
   "devDependencies": {
     "@types/node": "^24.13.3",
